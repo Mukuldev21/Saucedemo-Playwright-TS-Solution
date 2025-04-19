@@ -1,0 +1,17 @@
+{
+  "name": "saucedemo_playwright",
+  "version": "1.0.0",
+  "description": "Playwright Test Automation Framework with POM for saucedemo.com",
+  "main": "index.js",
+  "scripts": {"test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "report": "npx playwright show-report"},
+  "keywords": ["playwright", "typescript", "automation", "testing"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.14.1"
+  }
+}
